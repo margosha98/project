@@ -1,0 +1,139 @@
+
+.sliderimg{
+  height: 20px;
+}
+
+
+body{
+    background-color: #CECCCC;
+}
+#here{
+    background-color: #CECCCC;
+}
+
+body *{
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #7D7D7D;
+    background-color: #fff;
+    font-weight: 100;
+}
+
+
+ul{
+    
+    list-style: none;
+    padding-right: 40px;
+}
+
+.eachDate {
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #CECCCC;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 80%;
+    
+}
+
+/* ПАНЕЛЬ С ДАТОЙ */
+.dates{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 0px;
+}
+
+.date_name  {
+    display: flex;
+    justify-content: space-between;
+    margin: 4% 3%;
+          
+}
+.date_name h2{
+    display: inline;
+    margin: auto 0;
+      
+}
+.slider{
+    height: 20px;
+    margin: auto 10px auto 0px
+}
+
+
+
+/* ПАНЕЛЬ ПРИХОД РАСХОД */
+table{
+    width: 80%;
+}
+th{
+    text-align: left;
+    padding-left: -3px;
+}
+td{
+    text-align: right;
+}
+.PR{
+    border: 1px solid #CECCCC;
+    padding: 20px 40px;
+}
+.prihod_rashod_panel p{
+    text-align: left;
+}
+
+
+.spisok_tovarov_panel{
+    display: none;
+    padding: 15px;
+}
+
+.image{
+    height: 50px;
+}
+
+.slider_items{
+    height: 12px;
+}
+
+/* СПИСОК ТОВАРОВ */
+.spisok_tovarov {
+    margin-top: 10px;    
+}
+
+.spisok_tovarov tr td{
+    padding: 5px auto;
+    color:black;
+    width: 20%;
+    height: 50%;
+    text-align: left;
+}
+
+
+
+
+@media (max-width: 650px) {
+    .eachDate{
+        width: 95%;
+    }
+    .spisok_tovarov{
+        font-size: 13px;
+        width: 95%;
+    }
+    
+    .date_name h2{
+        font-size: 20px;
+    }
+    
+    .spisok_tovarov_panel{
+        padding: 5px 15px;
+    }
+    
+    .PR{
+        padding: 20px 10px;
+    }
+    
+   
+    
+    ul{
+        padding-left: 0px;
+    }
+}
